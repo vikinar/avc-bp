@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+//@import '~react-image-lightbox';
+
+html{
+  //font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-gray-100 w-full h-full m-0 p-0;
+  font-smooth: antialiased;
+}
+
+*{
+  transition: .25s ease;
+  box-sizing: border-box;
+}
